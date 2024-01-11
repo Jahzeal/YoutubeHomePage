@@ -1,0 +1,490 @@
+.subcribe-button{
+    background-color: rgb(185, 6, 51);
+    color: white;
+    border: none;
+    cursor:pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 10px;
+    vertical-align: top;
+
+}
+
+a{
+    text-decoration: none;
+}
+.subcribe-button:hover{
+    opacity: 0.7;
+}
+.subcribe-button:active{
+    opacity: 0.5;
+}
+.join{
+    background-color: white;
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 2px;
+    color: rgb(41, 118, 211);
+    height: 36px;
+    width: 62px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-co 1s,
+    color white;
+}
+
+.join:hover{
+    background-color:rgb(41, 118, 211);
+    color: white;
+}
+.join:active{
+    opacity: 0.7;
+}
+.tweet-button{
+    background-color: rgb(2, 137, 255);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 74px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    
+}
+.tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.request{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.cart{
+    background-color: #ffff00;
+    color: black;
+    border-radius: 18px;
+    height: 36px;
+    width: 105px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.8s;
+}
+.cart:hover{
+    opacity: 0.3;
+    font-size: large;
+}
+
+.back{
+    color: green;
+    cursor: pointer;
+}
+.back:hover{
+    color: orange;
+}
+p{
+    font-family: Roboto;
+}
+.video-title{
+    font-family: arial;
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 7px;
+    
+   
+}
+.video-stats{
+    margin-top: 0;
+
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+}
+.video-author{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.video-description{
+    margin-top: 0;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    width: 280px;
+    line-height: 22px;
+    margin-bottom: 100px;
+
+}
+.apple{
+    margin-bottom: 50px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18;
+}
+.apple >span{
+    margin-left: 20px;
+    text-decoration: none;
+}
+.apple>span:hover{
+    text-decoration: underline;
+    
+}
+
+.shop{
+    font-family: arial;
+    font-size: bold;
+    text-align: center;
+    margin-bottom: 0;
+}
+.see{
+    margin-top: 0;
+    padding-left: 45%;
+    font-size: 10px;
+    margin-bottom: 0;
+}
+.more{
+    margin-top: 0;
+    padding-left: 48%;
+    font-size: 10px;
+    margin-bottom: 0;
+}
+.type{
+    border-radius: 6px;
+    width: 40%;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    color: grey;
+}
+.mail{
+    color: grey;
+   
+}
+.agree{
+    border-radius: 1.7px;
+    height: 30px;
+    width: 30%;
+    color: white;
+    background-color: blue;
+    border-style: solid;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.bear{
+    display: inline-block;
+    width: 30%;
+    height: 70px;
+}
+.submit{
+    display: inline-block;
+}
+.ty{
+    width: 30%;
+    border-radius: 30px;
+}
+.pics{
+    width: 70px;
+    border-radius: 50%;
+    height: 70px;
+    margin-right: 5px;
+}
+.first1{
+    display: inline-block;
+}
+.cat{
+    display: inline-block;
+    line-height: 5px;
+}
+.card{
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    /* height: 18rem;
+    width: 13rem; */
+    margin-left: 20px;
+    border: 1px solid grey;
+}
+.upper_content{
+    background-color: green;
+    /* width: 100%;
+    height: 50%; */
+}
+.bottom_content > button{
+    background-color: rgb(70, 70, 223);
+    color: white;
+    border: none;
+    margin-bottom: 0px;
+    padding: 10px 40px;
+    
+    border-radius: 5px;
+
+}
+
+
+.bottom_content{
+    /* background-color: yellow; */
+    /* height: 50%;
+    width: 100%; */
+    padding-left: 10px;
+}
+
+.upper_content > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.upper_content > p{
+    font:bold;
+    padding: 0;
+    
+}
+.catpro{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    /* padding-top: -20px; */
+    margin-top: -6px;
+ 
+    
+}
+.catpro >p{
+    color: grey;
+    margin-top: 10px;
+    font-size: small;
+}
+.image > img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;    
+}
+
+.image{
+    padding-bottom: 30px;
+    /* width: 2rem; */
+    border-radius: 50%;
+    /* height: 2rem; */
+    overflow: hidden;
+    margin-right: 12px;
+}
+
+.jj > p{
+    color: grey;
+    font-size: small;
+}
+
+.jj{
+    margin-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 12px;
+    padding-right: 5px;
+}
+#io{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.lo > p{
+    padding-left: 10px;
+    margin: 0;
+}
+.lo > p:last-child{
+    color: grey;
+}
+
+.ff{
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.time > p{
+    padding-bottom: 55px;
+    color: grey;
+}
+.boy{
+    margin-top: 10px;
+    border: 1px solid rgb(225, 216, 216);
+    border-radius: 3px ;
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.15);
+    width: 28rem;
+    height: 18rem;
+}
+.ivy{
+    display: flex;
+}
+.ivy{
+    margin-left: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.ivy > img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+
+}
+.oh > p:nth-child(1){
+    font-weight: 600;
+}
+
+.oh > p > span{
+    color: grey;
+}
+
+.oh > p{
+    padding: 0;
+    margin: 0;
+}
+.com > p:nth-child(1){
+    color: grey;
+}
+.com > p{
+    margin: 0;
+    padding-left: 6rem;
+}
+.com{
+    margin-top: 10px;
+    padding-top: 15px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin-left: 5rem;
+    height: 5rem;
+    width: 23rem;
+    /* background-color: brown; */
+}
+#but{
+    height: 5.9rem;
+    background-color:rgb(244, 236, 236);
+    width: 5rem;
+    display: flex;
+    margin-top: -73px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 0 solid grey;
+}
+.get{
+    border: 1px solid black;
+    height: 15rem;
+    margin-top: 15px;
+    width: 30rem;
+}
+
+.ph{
+    margin-top: 10rem;
+    flex-direction: column;
+    background-color: lightblue;
+
+}
+
+.oh{
+    /* position: fixed; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.oh > img{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.pop{
+    display: flex;
+    margin-left: 40rem;
+    
+}
+.help > p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.help{
+    margin-top: 5px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 3.1rem;
+    background-color: rgba(0, 0, 0, 0.769);
+    color: white;
+    font-size: large;
+    height: 9.4rem;
+}
+.hp{
+    display: flex;
+    flex-direction: column;
+    margin-top: -8rem;
+    margin-left: 80px;
+    width: 10rem;
+    height: 8rem;
+}
+
+.hp > p{
+    color: grey;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.cont{
+    background-color:aqua;
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+    width: 8rem;
+}
+
+.ama > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.ama{
+    position: fixed;
+    display: flex;
+
+}
+
+.oge{
+    display: flex;
+    height: 30px;
+    padding-top: 10px;
+    position: fixed;
+    /* right: 0px; */
+    left: 8rem;
+}
+
+.oge >.di{
+    margin-right: 30px;
+    background-color: rgb(37, 101, 174);
+    color: white;
+    border-radius: 3px;
+}
+
+.oge >.id{
+    background-color: rgb(37, 101, 174);;
+    color: white;
+    border-radius: 3px;
+}

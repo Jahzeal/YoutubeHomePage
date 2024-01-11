@@ -1,0 +1,58 @@
+.juli > img{
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+.juli{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 100%;
+}
+
+
+
+
+.some{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    vertical-align: top;
+    padding-left: 10px;
+    /* background-color: aquamarine; */
+}
+.some > p:first-child{
+    color: black;
+    font-size: small;
+}
+
+.some > p{
+    padding: 0;
+    margin: 0;
+    color: grey;
+    font-size: smaller;
+
+}
+.pro{
+    border: 0.5px solid grey;
+    /* background-color: blueviolet; */
+    align-items: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20rem;
+    height: 5rem;
+    padding: 0 10px;
+}
+.pro > button{
+    border: none;
+    height: 2rem;
+    width: 5rem;
+    background-color: rgb(73, 73, 247);
+    color: white;
+    border-radius: 3px;
+}

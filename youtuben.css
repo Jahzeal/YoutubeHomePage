@@ -1,0 +1,9 @@
+.pro > p{
+    width: 20%;
+    height: 20px;
+    background-color: aqua;
+}
+.pro{
+    width: 50%;
+    height: 50%;
+}

@@ -1,0 +1,33 @@
+/* @media (max-width: 1200px) { */
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+    z-index: 200;
+    padding-top: 6px;
+}
+
+.sidebar-link{
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.sidebar-link:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+.sidebar-link > img{
+    height: 26px;
+}
+
+.sidebar-link > div{
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+/* } */

@@ -1,0 +1,90 @@
+.first{
+    /* background-color: red; */
+    width: 30%;
+    height: 30rem;
+    border-style: solid;
+    border-color: grey;
+}
+
+.sign > p{
+    margin-left: 40%;
+    font:bolder;
+}
+
+.sign{
+    /* background-color: aqua; */
+}
+.nice{
+    color: grey;
+    padding-left: 13px;
+}
+.name > p{
+    padding-left: 50px;
+    font-size: large;
+    font-weight: 200;
+    margin-bottom: 1px;
+}
+#in{
+    margin-left: 50px;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: rgba(205, 199, 199, 0.989);;
+}
+#of{
+    width: 15rem;
+    height: 2rem;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: rgba(205, 199, 199, 0.989);
+}
+#wow{
+    width: 15rem;
+    height: 2rem;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: rgba(205, 199, 199, 0.989);
+
+}
+.email >p{
+    margin-bottom: 1px;
+}
+
+.email{
+    margin-left: 50px;
+    width: 15rem;
+}
+
+.pass > p {
+    margin-bottom: 1px;
+}
+.pass{
+    margin-left: 50px;
+    height: 50px;
+}
+
+.the > p{
+    display: inline;
+    padding-bottom: 30px;
+    
+}
+.the{
+    margin-top: 12%;
+    /* background-color: black; */
+    /* display: inline; */
+    margin-left: 50px;
+}
+.up > button{ 
+    margin-top: 30px;
+    height: 30px;
+    width: 20rem;
+    margin-left: 30px;
+}
+.up > p{
+    margin-left: 10px;
+}
+#an{
+    border:none ;
+    padding-bottom: 30px;
+}
